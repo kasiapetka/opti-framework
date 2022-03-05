@@ -1,0 +1,21 @@
+.grid-3c-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #9de2d9;
+    padding: 10px;
+}
+
+.grid-2c-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #9de2d9;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(44, 44, 44, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}

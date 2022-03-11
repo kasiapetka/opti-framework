@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Landing from "./Landing";
 import WastedRendering from "./examination/WastedRendering";
 import "./App.scss";
+import Navbar from "./Navbar"
 
 class App extends Component {
     componentDidMount() {
@@ -16,7 +17,8 @@ class App extends Component {
         return (
             <Router>
                 <React.Fragment>
-                    <div>
+                    <Navbar />
+                    <div className="global">
                         <Switch>
                             <Route
                                 path="/"

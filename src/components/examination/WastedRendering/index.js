@@ -1,11 +1,12 @@
 import React from "react";
 import ToDoList from "./ToDoList";
 import ToDoListOpti from "./ToDoListOpti";
-
+import Jumbotron
+    from "../../Jumbotron";
 const WastedRendering = () => {
     return (
         <div>
-            <h1>WastedRendering</h1>
+            <Jumbotron title={"Wasted Rendering"} description={"Wasted Rendering Wasted Rendering"} />
             <div className="grid-2c-container">
                 <div className="grid-item">
                     <ToDoList />
